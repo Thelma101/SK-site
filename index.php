@@ -10,9 +10,10 @@
                                 <h1>Make the right <span>decision</span><br>at the right time.</h1>
                                 <h5> In need of an instant loan? </h5>
                                 <p>Access up to ₦5,000,000 on your smartphone — 
-anytime and anywhere. We give the  quickest and most affordable loans from 5%.
- </p><br>
- <h1> <span> No hidden charges. </span></h1>
+                                    anytime and anywhere. We give the  quickest and most affordable loans from 5%.
+                                </p>
+                                <br>
+                                <h1> <span> No hidden charges. </span></h1>
                             </div>
                             <div class="welcome_button">
                                 <a href="contact.php" class="common_btn">Contact Us</a>
@@ -26,36 +27,34 @@ anytime and anywhere. We give the  quickest and most affordable loans from 5%.
                     </div>
                 </div>
             </div>
-     </section>
+        </section>
         <!-- Payloan_header_bg section -->
         <!-- Common section -->
        
         <!-- The grid: four columns -->
-<!-- The grid: four columns -->
+        <!-- The grid: four columns -->
 
-<section class="commonSection com_history">
+        <section class="commonSection com_history">
             <div class="container">
                 <div class="row">
-
                     <div class="col-lg-3 text-center">
-        <img src="images/vector/on11.png"> Need a financial boost? </div>
-   
-   <div class="col-lg-3 text-center"> 
-            <img src="images/vector/on21.png"> Apply under 5mins. </div>
-
-    <div class="col-lg-3 text-center">
-   <img src="images/vector/on31.png"> Receive instant bank credit. </div>
-   
-   <div class="col-lg-3 text-center">
-<img src="images/vector/on41.png"> Requires no collateral! </div>
-   
-  </div>
-</div>
-</section>
-
-<br>
+                        <img src="images/vector/on11.png"> Need a financial boost? 
+                    </div> 
+                    <div class="col-lg-3 text-center"> 
+                        <img src="images/vector/on21.png"> Apply under 5mins. 
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <img src="images/vector/on31.png"> Receive instant bank credit. 
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <img src="images/vector/on41.png"> Requires no collateral! 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
  
-             <section class="commonSection homeService">
+        <section class="commonSection homeService">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-3 col-lg-4 col-md-6 mt176">
@@ -120,7 +119,7 @@ anytime and anywhere. We give the  quickest and most affordable loans from 5%.
                         <div class="serviceArea">
                             <h3> Enjoy peace of mind with SoftKash. </h3>
                             <h4> We render timely and hitch free financial support. </h4>
-<p> Applying for a loan the traditional way can be daunting. Through SoftKash, you can apply for a low-interest loan from the comfort of your home. Apply now and see how quick & easy loan disbursement can be. </p>
+                            <p> Applying for a loan the traditional way can be daunting. Through SoftKash, you can apply for a low-interest loan from the comfort of your home. Apply now and see how quick & easy loan disbursement can be. </p>
                             <a href="faq.php" class="common_btn">View More</a>
                         </div>
                     </div>
@@ -136,9 +135,7 @@ anytime and anywhere. We give the  quickest and most affordable loans from 5%.
                     <div class="col-lg-5 col-md-5">
                         <div class="contactArea">
                             <h3> About Us </h3>
-                            <p> 
-Softkash is a leading loan investment platform dedicated to giving household and SME loans with very low interest rates to both salary earners and business owners.  
-</p>
+                            <p> Softkash is a leading loan investment platform dedicated to giving household and SME loans with very low interest rates to both salary earners and business owners. </p>
                              <p>Do you need money for accommodation, education, business expansion, mobility, or for professional courses? We are your reliable platform.</p>
                             <a href="apply.php" class="common_btn">Apply Now</a>
                         </div>
@@ -150,9 +147,6 @@ Softkash is a leading loan investment platform dedicated to giving household and
                     </div>
                 </div>
             </div>
-
-    
-
         </section>
         <!-- Common section -->
 
@@ -231,7 +225,7 @@ Softkash is a leading loan investment platform dedicated to giving household and
         </section>
         <!-- Common section -->
 
- <section class="pagebanner">
+        <section class="pagebanner">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -259,30 +253,26 @@ Softkash is a leading loan investment platform dedicated to giving household and
 					
                     <div class="col-xl-7 col-lg-5 col-md-12">
                        <div class="caclculationFrom">
-					   
-      <form>
-        Loan Amount: <input type="number" id="amount" onkeyup="calculateAmount(this.value)">
-        <h3>&nbsp;</h3>
-        Payback: <input id="interest" type="number" readonly>
-        <script>
-            function calculateAmount(val) {
-                var interest = document.getElementById('interest');
-                val = document.querySelector('#amount').value;
-                var amount = parseInt(val);
-                /*Calculate Loan*/
-             
-                interest.value = (amount * .07) + amount; 
-            }
-           
-        </script>
-		</form>
+                            <form>
+                                Loan Amount: 
+                                <input type="number" id="amount" onkeyup="calculateAmount(this.value)">
+                                <h3>&nbsp;</h3>
+                                Payback: 
+                                <input id="interest" type="number" readonly>
+                                <script>
+                                    function calculateAmount(val) {
+                                        var interest = document.getElementById('interest');
+                                        val = document.querySelector('#amount').value;
+                                        var amount = parseInt(val);
+                                        /*Calculate Loan*/
+                                    
+                                        interest.value = (amount * .07) + amount; 
+                                    }
+                                
+                                </script>
+                            </form>
                         </div>
-                       
-                                     <a href="apply.php" class="common_btn">Apply Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <a href="apply.php" class="common_btn">Apply Now</a>
                     </div>
                 </div>
             </div>
@@ -314,12 +304,12 @@ Softkash is a leading loan investment platform dedicated to giving household and
 						
 		
 		
-                    </div>
+                    <!-- </div>
                     <div class="col-lg-7">
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section> --> -->
         <!-- Common section -->
 
         <!-- Common section -->
@@ -463,14 +453,14 @@ The Year 2020 has been a roller coaster ride by far. The Covid-19 crisis has bro
         <!-- Common section -->
         
 		<script>
-  function initFreshChat() {
-    window.fcWidget.init({
-      token: "08eef900-6e1c-4690-949b-9f16289cec27",
-      host: "https://wchat.freshchat.com"
-    });
-  }
-  function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
-</script>
+            function initFreshChat() {
+                window.fcWidget.init({
+                token: "08eef900-6e1c-4690-949b-9f16289cec27",
+                host: "https://wchat.freshchat.com"
+                });
+            }
+            function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
+        </script>
 
         
         <?php include('footer.php'); ?>

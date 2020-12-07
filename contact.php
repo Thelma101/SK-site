@@ -24,9 +24,11 @@
                         <div class="formArea">
                             <div class="row">
                                 <div class="col-lg-7 col-md-7">
-                                    <form action="#" method="post" class="contactFrom row" id="contactForm">
+                                <p id='contactsuccess' class="text-success small d-none">**Congrats, you have successfully subscribed to our newsletter**</p>
+                                <p id='contacterror' class="text-danger small d-none">**An error has occured, please check that you filled the form correctly**</p>
+                                    <form class="contactFrom row" id="contactForm">
                                         <div class="col-md-6">
-                                            <input class="required" type="text"  name="f_name" id="f_name" placeholder="First name*">
+                                            <input  class="required" type="text"  name="f_name" id="f_name" placeholder="First name*">
                                         </div>
                                         <div class="col-md-6">
                                             <input class="required" type="text"  name="l_name" id="l_name" placeholder="Last name*">

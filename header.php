@@ -1,5 +1,3 @@
-
-
     <head>
         <title> SoftKash - Quick & Easy </title>
         <meta charset="UTF-8">
@@ -17,8 +15,9 @@
         <link rel="stylesheet" type="text/css" href="css/preset.css"/>
         <link rel="stylesheet" type="text/css" href="css/theme.css"/>
         <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css"/>
         <!-- Favicon Icon -->
-     <link rel="icon"  type="image/png" img src="images/favicon.png">
+        <link rel="icon"  type="image/png" img src="images/favicon.png">
     </head>
     <body>
         <!-- Preloading -->
@@ -48,22 +47,16 @@
                                 <span></span>
                                 <span></span>
                             </a>
-                            <ul>
-                         
-                                <li><a href="index.php"> Home</a></li>
-								    
-                                <li><a href="about.php"> About Us </a></li>
-								     
-                                       
-                                 <li><a href="faq.php"> FAQ </a></li> 
-
-								     <li><a href="#">Credit Report </a></li> 
-									 
-								     <li class="menu-item-has-children">
+                            <ul>                         
+                                <li><a href="index.php"> Home</a></li>							    
+                                <li><a href="about.php"> About Us </a></li>								                                           
+                                <li><a href="faq.php"> FAQ </a></li> 
+                                <li><a href="signin.php"> Sign In </a></li> 
+								<!-- <li><a href="#">Credit Report </a></li> 									  -->
+								<li class="menu-item-has-children">
                                     <a href="contact.php">Contact</a>
                                     <ul class="sub-menu">
-                                      <li><a href="blog.php"> News </a></li>
-										
+                                      <li><a href="blog.php"> News </a></li>										
 							        </ul>
 
 <!--                                <li class="menu-item-has-children">

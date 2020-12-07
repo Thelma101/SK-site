@@ -155,15 +155,18 @@ used as part or full repayment, depending on the amount, on your next loan.
                         <h2 class="sec_title">
                             If you have other questions <br>please, fillup this form.
                         </h2>
-                        <form class="questinForm row" action="#" method="post">
+                        <p id='formSuccess' class="text-success  small d-none mb-1">**Thanks for your enquiry, we'll get back to you as soon as possible**</p>
+                        <form id='enquiryForm' class="questinForm row">
                             <div class="col-lg-6 col-md-6">
-                                <input type="email" name="email" placeholder="info@anchorit.com.ng">
+                                <p id='enquiryEmailerror' class="text-danger text-left small my-0"></p>
+                                <input id='enquiryEmail' type="email" name="email" placeholder="info@anchorit.com.ng">
                             </div>
                             <div class="col-lg-6 col-md-6">
-                                <input type="number" name="phone" placeholder="+234 70*** *** ***">
+                                <p id='enquiryNumbererror' class="text-danger text-left small my-0"></p>
+                                <input id='enquiryNumber' type="number" name="phone" placeholder="08093667354">
                             </div>
                             <div class="col-lg-12 col-md-12">
-                                <textarea required="" name="message" placeholder="Enquiry...."></textarea>
+                                <textarea id='enquiryMessage' required="" name="message" placeholder="Enquiry...."></textarea>
                             </div>
                             <div class="col-lg-12 col-md-12">
                                 <button class="common_btn" type="submit">Submit Now</button>
@@ -174,7 +177,7 @@ used as part or full repayment, depending on the amount, on your next loan.
             </div>
         </section>
         <!-- Common Section -->
-		
+		<script src="js/enquiry.js"></script>
 				<script>
   function initFreshChat() {
     window.fcWidget.init({
